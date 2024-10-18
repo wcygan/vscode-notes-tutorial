@@ -8,6 +8,10 @@ I keep all of my notes as files that are version-controlled and written in Markd
 
 This note-taking strategy is especially useful for capturing application development and testing commands. By documenting commands such as `curl` and `grpcurl` in Markdown files, you can easily reference and reuse them during development and testing. This ensures that you have a reliable record of the exact commands used, which can be crucial for troubleshooting.
 
+## VSCode Speech
+
+[VSCode Speech](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech) is a VSCode extension that allows you to transcribe speech to text and use it to interact with VSCode. For example, I can open up the Copilot Chat window and speak my request instead of typing it. This is very convenient!
+
 ## GitHub Copilot Chat Usage
 
 I use GitHub Copilot as a tool to retrieve information from my notes. By leveraging the capabilities of GitHub Copilot, I can quickly search and extract relevant information from my version-controlled Markdown files. This enhances my productivity and ensures that I can easily access the knowledge I have documented over time.
