@@ -137,3 +137,8 @@ git push -u origin master
 - Consider adding a README file to your repository to provide an overview of the repository and its contents.
 
 By following these steps, you can easily create a GitHub repository from your local notes and keep them in sync with your development workflow.
+
+## Jetbrains Icons and Keybindings
+
+I use [Jetbrains Icons](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme) and [Jetbrains Keymap](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings) because I am used to the Jetbrains IDEs and I find the icons and keybindings to be more efficient.
+
