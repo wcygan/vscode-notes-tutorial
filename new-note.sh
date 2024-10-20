@@ -6,16 +6,16 @@ Month=$(date +%m)
 Day=$(date +%d)
 
 # Create the directory structure
-mkdir -p "$Year/$Month/$Day"
+mkdir -p "random/$Year/$Month/$Day"
 
-# Get the local time in the desired format including seconds and timezone
-LocalTime=$(date +"%-I:%M:%S%p-%Z")
+# Get the local time in the desired format including seconds and timezone in military time
+LocalTime=$(date +"%H:%M:%S-%Z")
 
 # Construct the file name
 FileName="$LocalTime.md"
 
 # Full path to the new file
-FilePath="$Year/$Month/$Day/$FileName"
+FilePath="random/$Year/$Month/$Day/$FileName"
 
 # Create the file
 touch "$FilePath"

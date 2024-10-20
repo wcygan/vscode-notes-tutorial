@@ -68,10 +68,13 @@ For more detailed instructions, refer to the [official GitHub Copilot documentat
 # New Note (VSCode Task)
 
 ## Overview
+
 The "New Note" task in Visual Studio Code allows you to quickly create and manage notes directly within the IDE. This task is set up to streamline the process of note-taking, making it efficient and integrated with your development workflow.
 
 ## Setup
+
 1. **Configure Tasks**: Add the following configuration to your `tasks.json` file in the `.vscode` directory:
+
     ```json
     {
         "version": "2.0.0",
@@ -87,13 +90,16 @@ The "New Note" task in Visual Studio Code allows you to quickly create and manag
         ]
     }
     ```
+
 2. **Install Optional Extensions**: Optionally, you can install useful extensions such as Markdown All in One. Really, you could do this without any extensions, but I find them useful.
 
 ## Usage
+
 1. **Run the Task**: Open the Command Palette (`Ctrl+Shift+P`), type `Run Task`, and select `New Note`.
 2. **Edit the Note**: A new file will be created in your workspace. The script will open the file for you within VSCode.
 
 ## Script Explanation
+
 - **Command**: The task runs a shell script `new-note.sh` which creates a new directory structure based on the current date and a new Markdown file with a timestamped filename.
 - **Label**: The task is labeled as "New Note" for easy identification.
 - **Type**: The task type is set to `shell`, indicating it runs a shell command.
@@ -141,4 +147,3 @@ By following these steps, you can easily create a GitHub repository from your lo
 ## Jetbrains Icons and Keybindings
 
 I use [Jetbrains Icons](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme) and [Jetbrains Keymap](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings) because I am used to the Jetbrains IDEs and I find the icons and keybindings to be more efficient.
-
